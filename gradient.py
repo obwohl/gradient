@@ -58,7 +58,7 @@ def hex_to_rgb(hex_color):
     return tuple(int(hex_color[i:i+2], 16) * 257 for i in (0, 2, 4))
 
 # Color palette  
-colors_hex = ["F0F0F0", "8AA29E", "F05F51", "1E3B48", "000000"]  
+colors_hex = ["FFFFFF", "8AB28A", "F15D51", "2E3C44", "000000"]  
 colors_rgb = [hex_to_rgb(color) for color in colors_hex]
 
 width, height = 1500, 1000  
